@@ -1,0 +1,10 @@
+{
+    "model_config": {
+        "vocab_size": 50257,
+        "max_position_embeddings": 2048,
+        "hidden_size": 1536,
+        "num_hidden_layers": 24,
+        "num_attention_heads": 16,
+        "intermediate_size": 6144
+    }
+}
