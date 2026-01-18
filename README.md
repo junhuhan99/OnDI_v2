@@ -192,11 +192,19 @@ print(output)
 
 | File | Description | Size |
 |------|-------------|------|
-| `pytorch_model.bin` | Model weights | ~4GB |
+| `model.py` | Model architecture code | ~5KB |
 | `config.json` | Model configuration | <1KB |
 | `tokenizer.json` | Tokenizer vocabulary | ~3.3MB |
 | `tokenizer_config.json` | Tokenizer configuration | <1KB |
 | `special_tokens_map.json` | Special tokens mapping | <1KB |
+
+## Model Weights
+
+The pre-trained model weights (`pytorch_model.bin`, ~4GB) are not included in this repository due to size limitations.
+
+**Download options:**
+- Contact the author for access to the model weights
+- The SFT (fine-tuned) version will be released separately
 
 ## Limitations
 
